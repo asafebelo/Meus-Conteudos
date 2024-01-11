@@ -3,7 +3,7 @@
 <h6 align="center" style="color:#808080"><b>Selecione o conteúdo que você deseja ler ou aprender abaixo</b></h6>
 
 <p align="center">
-<a href="/docs/TrendMicro.md" style="color:#DC143C"><b>Trend Micro</b></a>
+<a href="TrendMicro.md" style="color:#DC143C"><b>Trend Micro</b></a>
 </p>
 
 <p align="center">
