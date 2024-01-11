@@ -1,4 +1,4 @@
-<h1 align="center"><span style ="color: #DC143C">Trend Micro</h1>
+<h1 align="center"><span style ="color: #DC143C">Trend Micro</span></h1>
 
 <p align="center">
 <a href="./VisionOne.md" style="color:#DC143C"><b>Trend Micro XDR Vision One</b></a>
