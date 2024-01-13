@@ -1,3 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu";
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(45deg, #fafafa, #fff8f0, #dedede, #fafafa);
+}
+
+h1,
+h4 {
+  margin: 0;
+}
+
+.asafe {
+  color: #1e90ff;
+}
+
+.asafe:hover {
+  animation-duration: 0.5;
+  background: linear-gradient(to right, #1e90ff, #9900ff);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .trendmicro,
 .trendmicro:visited {
   text-decoration: none;
@@ -26,4 +53,12 @@
 .cybersecurity:visited {
   text-decoration: none;
   color: #0060d6;
+}
+
+.conteudos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
 }

@@ -69,5 +69,3 @@ A Trend Micro oferece uma maneira flexível de adotar o Vision One: Licensiament
 Para calcular, basta adicionar o número de sensores, endpoints/servidores, contas de e-mail e etc. Depois da compra dos créditos, eles serão alocados automaticamente quando um novo sensor for ativado. Quando o sensor é desativado, os créditos alocal nele voltam para o conjunto de créditos disponíveis, permanecendo ali. Após todos os créditos serem alocados, você pode comprar mais entrando em contato com a Trend ou realocando sensores ou apps.
 
 ---
-
-<h6>Fim</h6>
