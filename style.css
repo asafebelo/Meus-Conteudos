@@ -8,8 +8,7 @@ body {
   background: linear-gradient(45deg, #fafafa, #fff8f0, #dedede, #fafafa);
 }
 
-h1,
-h4 {
+h1 {
   margin: 0;
 }
 
