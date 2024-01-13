@@ -1,4 +1,4 @@
-<h1 align="center"><span style ="color: #DC143C">Vision One Essentials | Sales Track</h1>
+# Vision One Essentials | Sales Track
 
 ##### Porfólio
 

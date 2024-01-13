@@ -1,4 +1,4 @@
-<h1 align="center"><span style ="color: #DC143C">Trend Vision One: Understading the Basics</h1>
+# Trend Vision One: Understading the Basics
 
 ##### Coletando telemetria usando Vision One
 

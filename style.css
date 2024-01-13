@@ -1,0 +1,29 @@
+.trendmicro,
+.trendmicro:visited {
+  text-decoration: none;
+  color: #dc143c;
+}
+
+.checkpoint,
+.checkpoint:visited {
+  text-decoration: none;
+  color: #ff1493;
+}
+
+.redes,
+.redes:visited {
+  text-decoration: none;
+  color: #5a00c7;
+}
+
+.linux,
+.linux:visited {
+  text-decoration: none;
+  color: #00b00c;
+}
+
+.cybersecurity,
+.cybersecurity:visited {
+  text-decoration: none;
+  color: #0060d6;
+}
