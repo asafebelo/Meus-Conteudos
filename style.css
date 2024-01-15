@@ -95,8 +95,8 @@ body.dark-theme h4 {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 24px;
 }
 
 .switch input {
@@ -121,9 +121,9 @@ body.dark-theme h4 {
 .arrasta:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
+  height: 17px;
+  width: 17px;
+  left: 3.5px;
   bottom: 4px;
   background-color: #001245;
   transition: 0.4s;
