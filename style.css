@@ -5,11 +5,30 @@ body {
   font-family: "Ubuntu";
   height: 100%;
   margin: 0;
-  background: linear-gradient(45deg, #fafafa, #fff8f0, #dedede, #fafafa);
+  transition: color 0.5s;
+}
+
+body.light-theme {
+  background: linear-gradient(45deg, #ededed, #fff8f0, #fff8f0, #ededed);
+  color: #000000;
+}
+
+body.dark-theme {
+  background: linear-gradient(45deg, #0c0b21, #001245, #001245, #0c0b21);
+  color: #ffffff;
 }
 
 h1 {
   margin: 0;
+}
+
+h4 {
+  color: #808080;
+  transition: color 0.5s;
+}
+
+body.dark-theme h4 {
+  color: white;
 }
 
 .asafe {
@@ -60,4 +79,72 @@ h1 {
   justify-content: center;
   align-content: center;
   height: 100vh;
+}
+
+/* começo do botão de mudança de tema */
+/* configuração da div do botão */
+.containerTema {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* largura e altura do botão */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.arrasta {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 2s;
+  border-radius: 34px;
+}
+
+/* faz a bolinha branca */
+.arrasta:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #001245;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* ficar com o fundinho azul ao mudar pro modo escuro */
+input:checked + .arrasta {
+  background-color: #ccc;
+}
+
+input:focus + .arrasta {
+  box-shadow: 0 0 1px #001245;
+}
+
+input:checked + .arrasta:before {
+  transform: translateX(26px);
+  background-color: white;
+}
+
+/* cantos arredondados do botão*/
+.arrasta.botao {
+  border-radius: 34px;
 }

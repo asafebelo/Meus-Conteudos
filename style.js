@@ -8,3 +8,17 @@ function alterarNome() {
 }
 
 setInterval(alterarNome, 2000);
+
+document.addEventListener("DOMContentLoaded", function () {
+  const botaoTema = document.getElementById("botao-tema");
+
+  botaoTema.addEventListener("change", function () {
+    document.body.classList.toggle("dark-theme");
+  });
+
+  // Verifique o estado inicial do botão ao carregar a página
+  if (localStorage.getItem("theme") === "dark") {
+    botaoTema.checked = true;
+    document.body.classList.add("dark-theme");
+  }
+});
